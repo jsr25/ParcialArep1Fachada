@@ -1,16 +1,17 @@
 package edu.escuelaing.arep.calculator.connection;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-
-import com.google.gson.JsonParser;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 
 import java.io.IOException;
 
-
+/**
+ * Autor Juan Ramos
+ *
+ * Conexion con el Api de la calculadora
+ *
+ */
 public class CalculatorConn {
 
     public String getResult(String valor, String opera){

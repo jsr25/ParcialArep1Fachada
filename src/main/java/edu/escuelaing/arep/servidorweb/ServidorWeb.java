@@ -4,6 +4,13 @@ import com.google.gson.Gson;
 import edu.escuelaing.arep.calculator.connection.CalculatorConn;
 
 import static spark.Spark.*;
+
+/**
+ * Autor Juan Ramos
+ *
+ * Servidor web desplegado
+ *
+ */
 public class ServidorWeb {
 
     public static void main(String[] args) {
